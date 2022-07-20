@@ -1,0 +1,149 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav div.header__contenedor2 {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+li:last-child {
+  background-color: #fa0000;
+  border: 2px solid;
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.2rem;
+}
+
+li:last-child:hover {
+  background: transparent;
+  border: 2px solid;
+  color: Red;
+}
+
+a:last-child:hover {
+  color: #fa0000;
+}
+
+main {
+  padding-top: 70px;
+}
+main div {
+  align-items: center;
+}
+main div div.col {
+  align-items: center;
+  text-align: center;
+}
+main div div.col .titulo {
+  font-family: "Montserrat Alternates", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+img.placa, img.placa2 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 80%;
+}
+
+article {
+  padding: 100px;
+  text-align: center;
+}
+article .secundario {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: medium;
+  font-weight: bold;
+}
+
+div.central {
+  margin-bottom: 100px;
+}
+div.central Div.col1 {
+  text-align: center;
+  font-family: "Montserrat Alternates", sans-serif;
+  margin-bottom: 100px;
+}
+div.central Div.col1 h1.acercaDe {
+  font-weight: bold;
+}
+
+img.banner1, img.banner2 {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 300px;
+  height: 500px;
+}
+
+.textoUs {
+  -o-object-fit: contain;
+     object-fit: contain;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  width: 600px;
+  height: 200px;
+  padding-bottom: 300px;
+}
+
+div.video {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 100px;
+}
+div.video iframe {
+  align-items: center;
+}
+
+div h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: bold;
+}
+
+img.galeria {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 400px;
+  height: 500px;
+}
+
+div.tituloQ {
+  margin-bottom: 100px;
+}
+
+div.containerQ {
+  text-align: center;
+  align-items: center;
+  padding-left: 200px;
+}
+div.containerQ .pregunta {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+div.containerQ .pregunta h3 {
+  font-weight: bolder;
+}
+
+div.contenedorNegro {
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */
