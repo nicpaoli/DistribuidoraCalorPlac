@@ -17,7 +17,7 @@ nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
-div.header__contenedor2{
+div .header__contenedor2{
     padding: 10px;
     width: 100%;
     display: flex;
@@ -50,7 +50,7 @@ a:last-child:hover{
 main{padding-top: 70px;
 div{
     align-items: center;
-    div.col{
+    div .col{
         align-items: center;
         text-align: center;
         .titulo{
@@ -62,7 +62,7 @@ div{
 }
 }
 
-img.placa, img.placa2 {
+img .placa, img .placa2 {
     object-fit: contain;
     width: 80%;
 }
@@ -79,13 +79,13 @@ article{
 
 //Main Pagina Us
 
-div.central {
+div .central {
     margin-bottom: 100px;
-    Div.col1{
+    Div .col1{
         text-align: center;
         font-family: 'Montserrat Alternates', sans-serif;
         margin-bottom: 100px;
-        h1.acercaDe{
+        h1 .acercaDe{
             font-weight: bold;
             
         }
@@ -93,7 +93,7 @@ div.central {
 }
 
 
-img.banner1, img.banner2 {
+img .banner1, img .banner2 {
     object-fit: contain;
     width: 300px;
     height:500px;
@@ -108,7 +108,7 @@ img.banner1, img.banner2 {
     padding-bottom: 300px;
 }
 
-div.video {
+div .video {
     align-items: center;
     text-align: center;
     margin-bottom: 100px;
@@ -126,7 +126,7 @@ div{
     }
 }
 
-img.galeria{
+img .galeria{
     object-fit: contain;
     width: 400px;
     height: 500px;
@@ -135,11 +135,11 @@ img.galeria{
 
 //main pagina Questions
 
-div.tituloQ{
+div .tituloQ{
     margin-bottom: 100px;
 }
 
-div.containerQ{
+div .containerQ{
     text-align: center;
     align-items: center;
     padding-left: 200px;    
@@ -162,7 +162,7 @@ div.containerQ{
 
 //footer
 
-div.contenedorNegro{
+div .contenedorNegro{
     align-items: center;
     padding: 10px;
     background-color: $ColorTexto;
