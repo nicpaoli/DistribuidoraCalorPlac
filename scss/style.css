@@ -124,11 +124,11 @@ div.tituloQ {
 }
 
 div.containerQ {
+  width: 100%;
   text-align: center;
   align-items: center;
-  padding-left: 200px;
 }
-div.containerQ .pregunta {
+div.containerQ div.questions {
   -o-object-fit: contain;
      object-fit: contain;
   width: 300px;
@@ -137,8 +137,9 @@ div.containerQ .pregunta {
   align-items: center;
   font-family: "Montserrat Alternates", sans-serif;
 }
-div.containerQ .pregunta h3 {
+div.containerQ div.questions h3 {
   font-weight: bolder;
+  text-align: center;
 }
 
 div.contenedorNegro {
