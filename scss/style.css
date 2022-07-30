@@ -105,9 +105,11 @@ div.video iframe {
   align-items: center;
 }
 
-div h1 {
+div h1.acercaDe {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: bold;
+  text-align: center;
+  align-items: center;
 }
 
 img.galeria {
