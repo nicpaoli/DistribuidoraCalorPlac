@@ -47,10 +47,10 @@ a:last-child:hover{
 
 //Main Index
 
-main{padding-top: 70px;
-div{
+main {padding-top: 70px;
+    div{
     align-items: center;
-    div.col{
+        div.col{
         align-items: center;
         text-align: center;
         .titulo{
@@ -62,7 +62,7 @@ div{
 }
 }
 
-img.placa, img.placa2 {
+img .placa, img .placa2 {
     object-fit: contain;
     width: 80%;
 }
